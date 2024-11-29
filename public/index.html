@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Computer Vision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Azure Logo" class="logo">
+        <h1>Azure Computer Vision</h1>
+    </header>
+    <div class="container">
+        <form id="uploadForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="image">Selecciona una imagen:</label>
+                <input type="file" id="image" name="image" accept="image/*" required>
+            </div>
+            <div id="preview-container">
+                <img id="imagePreview" src="" alt="Vista previa de la imagen">
+            </div>
+            <button type="submit">Analizar Imagen</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+# Dependencias de Node.js
+node_modules/
+package-lock.json
+
+# Archivos sensibles
+.env
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por el editor
+.vscode/
+.idea/
+*.log
+
+# Subidas temporales
+uploads/
+
+# Cachés de pruebas o compilaciones
+coverage/
+dist/
+
+# Ignorar todos los archivos en public/uploads excepto la carpeta
+public/uploads/*
+
+# Ignorar otros temporales
+*.tmp
+*.swp
